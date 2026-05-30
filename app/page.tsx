@@ -55,7 +55,7 @@ export default function HomePage() {
             animationFillMode: "forwards",
           }}
         >
-          Una tarde de horno y mucho amor
+          para hacer juntos 🍪
         </p>
 
         {/* Main title */}
