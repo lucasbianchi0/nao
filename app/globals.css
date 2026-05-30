@@ -104,10 +104,11 @@ html {
 
 /* Background floating cookies in hero */
 @keyframes drift {
-  0% { transform: translateY(0) rotate(0deg) scale(1); }
-  33% { transform: translateY(-30px) rotate(120deg) scale(1.05); }
-  66% { transform: translateY(10px) rotate(240deg) scale(0.95); }
-  100% { transform: translateY(0) rotate(360deg) scale(1); }
+  0%   { transform: translateY(0px) translateX(0px); }
+  25%  { transform: translateY(-20px) translateX(8px); }
+  50%  { transform: translateY(-8px) translateX(-6px); }
+  75%  { transform: translateY(-25px) translateX(4px); }
+  100% { transform: translateY(0px) translateX(0px); }
 }
 
 .drift-1 { animation: drift 18s ease-in-out infinite; }

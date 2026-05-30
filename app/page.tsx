@@ -18,12 +18,12 @@ export default function HomePage() {
       {/* Floating background blobs */}
       <div className="absolute inset-0 pointer-events-none select-none overflow-hidden">
         {[
-          { cls: "drift-1", size: 80, top: "8%", left: "5%", opacity: 0.07 },
-          { cls: "drift-2", size: 55, top: "15%", right: "8%", opacity: 0.09 },
-          { cls: "drift-3", size: 100, top: "55%", left: "2%", opacity: 0.06 },
-          { cls: "drift-4", size: 70, bottom: "10%", right: "5%", opacity: 0.08 },
-          { cls: "drift-5", size: 45, top: "38%", right: "14%", opacity: 0.1 },
-          { cls: "drift-6", size: 90, bottom: "20%", left: "10%", opacity: 0.07 },
+          { cls: "drift-1", size: 60, top: "8%", left: "8%", opacity: 0.07 },
+          { cls: "drift-2", size: 45, top: "15%", right: "12%", opacity: 0.09 },
+          { cls: "drift-3", size: 70, top: "55%", left: "8%", opacity: 0.06 },
+          { cls: "drift-4", size: 55, bottom: "12%", right: "10%", opacity: 0.08 },
+          { cls: "drift-5", size: 40, top: "38%", right: "15%", opacity: 0.1 },
+          { cls: "drift-6", size: 65, bottom: "22%", left: "12%", opacity: 0.07 },
         ].map((b, i) => (
           <span
             key={i}
@@ -103,13 +103,13 @@ export default function HomePage() {
             animationFillMode: "forwards",
           }}
         >
-          <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 animate-float-delayed drop-shadow-xl">
+          <div className="w-[22vw] h-[22vw] sm:w-32 sm:h-32 md:w-48 md:h-48 max-w-[180px] max-h-[180px] animate-float-delayed drop-shadow-xl">
             <ChocolateChipSVG />
           </div>
-          <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-60 md:h-60 animate-float drop-shadow-2xl">
+          <div className="w-[28vw] h-[28vw] sm:w-40 sm:h-40 md:w-60 md:h-60 max-w-[240px] max-h-[240px] animate-float drop-shadow-2xl">
             <RedVelvetSVG />
           </div>
-          <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 animate-float-slow drop-shadow-xl">
+          <div className="w-[22vw] h-[22vw] sm:w-32 sm:h-32 md:w-48 md:h-48 max-w-[180px] max-h-[180px] animate-float-slow drop-shadow-xl">
             <CookiesAndCreamSVG />
           </div>
         </div>
