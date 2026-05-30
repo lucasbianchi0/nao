@@ -96,20 +96,20 @@ export default function HomePage() {
 
         {/* Cookie SVGs row */}
         <div
-          className="flex justify-center items-end gap-4 md:gap-8 mb-10 animate-fade-in-up"
+          className="flex justify-center items-end gap-2 sm:gap-4 md:gap-8 mb-10 animate-fade-in-up"
           style={{
             animationDelay: "0.5s",
             opacity: 0,
             animationFillMode: "forwards",
           }}
         >
-          <div className="w-36 h-36 md:w-48 md:h-48 animate-float-delayed drop-shadow-xl">
+          <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 animate-float-delayed drop-shadow-xl">
             <ChocolateChipSVG />
           </div>
-          <div className="w-44 h-44 md:w-60 md:h-60 animate-float drop-shadow-2xl">
+          <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-60 md:h-60 animate-float drop-shadow-2xl">
             <RedVelvetSVG />
           </div>
-          <div className="w-36 h-36 md:w-48 md:h-48 animate-float-slow drop-shadow-xl">
+          <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 animate-float-slow drop-shadow-xl">
             <CookiesAndCreamSVG />
           </div>
         </div>
